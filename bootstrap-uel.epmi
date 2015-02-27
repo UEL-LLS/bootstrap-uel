@@ -1,9 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <epm xmlns='http://eprints.org/ep2/data/2.0' id='http://eprints-dev.uel.ac.uk/id/epm/bootstrap-uel'>
   <epmid>bootstrap-uel</epmid>
+  <uri>http://eprints-dev.uel.ac.uk/id/epm/bootstrap-uel</uri>
   <documents>
     <document>
       <files>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>epm/bootstrap-uel/cfg/citations/eprint/bootstrap_summary_page.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>9fe2bb5064e01e7981e970099ff1c6ab</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>11053</filesize>
+        </file>
         <file>
           <datasetid>document</datasetid>
           <filename>epm/bootstrap-uel/cfg/cfg.d/z_theme.pl</filename>
@@ -11,6 +20,14 @@
           <hash>3961e86ff0ef35943927f5f13c9c423b</hash>
           <hash_type>MD5</hash_type>
           <filesize>26</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>plugins/EPrints/Plugin/Screen/EPMC/Bootstrap.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>d28a1a6f1e347b32bbec05788a39feb1</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2111</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -22,11 +39,27 @@
         </file>
         <file>
           <datasetid>document</datasetid>
+          <filename>lang/en/phrases/z_bs-uel.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>1b46003b124c919ae7f26cf0a498bfa3</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>10493</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
           <filename>themes/bootstrap/templates/default.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>3aba3e807ce7948a52a3d25336b348ff</hash>
+          <hash>23b6aa1c4004707e86bf501ec94767bb</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5682</filesize>
+          <filesize>5802</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Fonts/Raleway-Light.eot</filename>
+          <mime_type>application/vnd.ms-fontobject</mime_type>
+          <hash>06a72ee6adf1ce4aa55e28bdba9009e8</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>28997</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -51,6 +84,14 @@
           <hash>742f9de1398a790c13d37b53b2a4d033</hash>
           <hash_type>MD5</hash_type>
           <filesize>38</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-style.css</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>2a33daa5eef31ae4a4b0eea91d559847</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>708</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -115,6 +156,14 @@
           <hash>ae1919c313f9b001bb05e5f3eb2b04e3</hash>
           <hash_type>MD5</hash_type>
           <filesize>411</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/jquery.expander.min.js</filename>
+          <mime_type>text/html</mime_type>
+          <hash>9779af33d86fe3ea2f58343b9334e903</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>5715</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -194,7 +243,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.0.1</version>
+  <version>0.0.4</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -205,7 +254,7 @@
       <id>you@email.address</id>
     </item>
   </creators>
-  <datestamp>2015-02-26 11:41:42</datestamp>
+  <datestamp>2015-02-27 11:09:37</datestamp>
   <title>Bootstrap-UEL</title>
   <description>This is the description.</description>
   <requirements>The following modules are required: X, Y, Z</requirements>

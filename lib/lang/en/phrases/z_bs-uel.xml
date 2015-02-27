@@ -5,11 +5,10 @@
 
 	<epp:comment>This is all the theme related stylesheets needed for your Bootstrap theme.</epp:comment>
 	<epp:phrase id="bootstrap/stylesheets">
+	<!--link href='http://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'/-->
         </epp:phrase>
 	
 	<epp:phrase id="bootstrap/branding_header:css">
-/* some CSS for branding header could go here, though the main CSS files would make more sense */
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,200);
 	</epp:phrase>
 
 	<epp:comment>htmlTop is the primary navbar. This contains the university/institutional branding.</epp:comment>

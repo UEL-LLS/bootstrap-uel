@@ -9,12 +9,13 @@
 	
 	<epp:phrase id="bootstrap/branding_header:css">
 /* some CSS for branding header could go here, though the main CSS files would make more sense */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,200);
 	</epp:phrase>
 
 	<epp:comment>htmlTop is the primary navbar. This contains the university/institutional branding.</epp:comment>
 	<epp:phrase id="bootstrap/branding_header:htmlTop">
 <!-- bootstrap/branding_header -->
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-inverse">
 		<div class="collapse navbar-collapse" id="uel-header">
 			<ul class="nav navbar-nav">
 				<li class="dropdown">	

@@ -1,0 +1,39 @@
+/*******************
+ UEL header styles
+*******************/
+
+#branding_header nav {
+
+background-color: #303232;
+border-color: #303232;
+
+border-radius: 0px;
+font-size: 10px;
+height: 45px;
+min-height: 0px;
+}
+
+#branding_header nav ul {
+
+margin-left: 5px;
+}
+
+#branding_header nav a {
+
+height: 45px;
+font-size: 1.2em;
+line-height: 1em;
+color: white;
+text-decoration: none;
+//width: 100%;
+text-align: center;
+text-transform: uppercase;
+display: inline-block;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+transition: all .3s;
+
+font-family: 'Raleway', "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+
+
+}

@@ -1,9 +1,6 @@
 /*******************
- UEL header styles
+ UEL  Top header styles
 *******************/
-
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
-
 
 #branding_header nav {
 
@@ -19,9 +16,6 @@ height: 4.5em;
   z-index: 5;
   font-size: 10px;
   background: #303232;
-
-
-
 }
 
 #branding_header nav ul {
@@ -39,7 +33,6 @@ color: white;
 text-decoration: none;
 //width: 100%;
 text-align: center;
-text-transform: uppercase;
 display: inline-block;
 -webkit-transition: all .3s;
 -moz-transition: all .3s;
@@ -47,5 +40,42 @@ transition: all .3s;
 
 font-family: 'Raleway', "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 
+padding-right: 23px;
+padding-left: 14px;
+}
+
+#branding_header nav .navbar-left a {
+text-transform: uppercase;
+}
+
+#branding_header nav .navbar-right a {
+padding-right: 16px;
+}
+#branding_header nav .navbar-right li {
+padding-left: 44px;
 
 }
+#branding_header nav li:nth-child(3) a {
+padding-left: 19px
+}
+#branding_header nav li:nth-child(4) a {
+padding-left: 23px
+}
+
+#branding_header .uel-icon {
+position: absolute;
+width: 40px;
+height:34px;
+top: 3px;
+left: -36px;
+}
+#branding_header .uel-contact {
+background: url('/bootstrap_assets/Images/uel-icons.png') 4px 0;
+}
+#branding_header .uel-search {
+background: url('/bootstrap_assets/Images/uel-icons.png') 40px 0;
+}
+
+/************************
+ UEL bottom header style
+************************/

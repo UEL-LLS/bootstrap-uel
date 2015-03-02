@@ -41,25 +41,33 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/z_bs-uel.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>1b46003b124c919ae7f26cf0a498bfa3</hash>
+          <hash>d8469bd065d53c0021b4e5ec6b10b8b8</hash>
           <hash_type>MD5</hash_type>
-          <filesize>10493</filesize>
+          <filesize>10434</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/templates/default.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>23b6aa1c4004707e86bf501ec94767bb</hash>
+          <hash>9934ced8def95aa445e21dd0693f5674</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5802</filesize>
+          <filesize>5683</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Fonts/Raleway-Light.eot</filename>
-          <mime_type>application/vnd.ms-fontobject</mime_type>
-          <hash>06a72ee6adf1ce4aa55e28bdba9009e8</hash>
+          <filename>themes/bootstrap/static/bootstrap_assets/Fonts/Raleway-Regular.woff</filename>
+          <mime_type>application/x-font-woff</mime_type>
+          <hash>7a9cd9c750bede8d68adaad224e40513</hash>
           <hash_type>MD5</hash_type>
-          <filesize>28997</filesize>
+          <filesize>31736</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Fonts/import.css</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>552d53b95786c01fcc821c452b7122c9</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>185</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -89,9 +97,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-style.css</filename>
           <mime_type>text/plain</mime_type>
-          <hash>2a33daa5eef31ae4a4b0eea91d559847</hash>
+          <hash>516103203ba554f63b89ee151211d695</hash>
           <hash_type>MD5</hash_type>
-          <filesize>708</filesize>
+          <filesize>1416</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -100,6 +108,22 @@
           <hash>cdc7e40ffb2cbbef9ed5fd3baa14a829</hash>
           <hash_type>MD5</hash_type>
           <filesize>18796</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Images/uel-icons.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>6035064262e08fcf560736f90ae7b11d</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1237</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Images/logo.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>ebaf52f73ee5716358ba4aadeea0341d</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>5217</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -243,7 +267,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -254,7 +278,7 @@
       <id>you@email.address</id>
     </item>
   </creators>
-  <datestamp>2015-02-27 11:09:37</datestamp>
+  <datestamp>2015-02-27 15:14:47</datestamp>
   <title>Bootstrap-UEL</title>
   <description>This is the description.</description>
   <requirements>The following modules are required: X, Y, Z</requirements>

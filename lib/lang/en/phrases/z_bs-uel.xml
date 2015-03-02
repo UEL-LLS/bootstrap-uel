@@ -55,7 +55,7 @@
                                                 <span class="icon-bar" />
                                                 </button>
                                                 <a class="navbar-brand" href="#">
-                                                <img alt="{phrase('archive_name')}" src="{$config{rel_path}}/bootstrap_assets/Images/logo.png" style="height: 88px"/>
+                                                <img alt="{phrase('archive_name')}" class="hidden-xs" src="{$config{rel_path}}/bootstrap_assets/Images/logo.png" style="height: 88px"/>
                                                 </a>
                                                 <a href="{$config{frontpage}}" title="{phrase('archive_name')}" class="navbar-brand">
                                                         <!--epc:phrase ref="template/navigation:home"/-->

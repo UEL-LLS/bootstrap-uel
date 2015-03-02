@@ -27,6 +27,12 @@ height: 4.5em;
   background: #303232;
 }
 
+#branding_header ul.dropdown-menu {
+background-color: #303232;
+top: 43px;
+left: -37px;
+}
+
 #branding_header nav ul {
 
 margin-left: 5px;
@@ -51,6 +57,7 @@ font-family: 'Raleway', "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-s
 
 padding-right: 23px;
 padding-left: 14px;
+max-height: 44px;
 }
 
 #branding_header nav .navbar-left a {

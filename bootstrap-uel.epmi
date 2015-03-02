@@ -41,9 +41,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/z_bs-uel.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>d8469bd065d53c0021b4e5ec6b10b8b8</hash>
+          <hash>8805dc637f6db42e1a3bc07ed2a5d03d</hash>
           <hash_type>MD5</hash_type>
-          <filesize>10434</filesize>
+          <filesize>10863</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -96,10 +96,10 @@
         <file>
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-style.css</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>516103203ba554f63b89ee151211d695</hash>
+          <mime_type>text/x-c</mime_type>
+          <hash>c3b912337a95ddd98ed44069faac5dfb</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1416</filesize>
+          <filesize>2735</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -121,9 +121,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Images/logo.png</filename>
           <mime_type>image/png</mime_type>
-          <hash>ebaf52f73ee5716358ba4aadeea0341d</hash>
+          <hash>9c81f426ae7223b172af900dd66e39ff</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5217</filesize>
+          <filesize>4001</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -267,7 +267,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.0.5</version>
+  <version>0.1.0</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -278,7 +278,7 @@
       <id>you@email.address</id>
     </item>
   </creators>
-  <datestamp>2015-02-27 15:14:47</datestamp>
+  <datestamp>2015-03-02 11:43:04</datestamp>
   <title>Bootstrap-UEL</title>
   <description>This is the description.</description>
   <requirements>The following modules are required: X, Y, Z</requirements>

@@ -122,13 +122,15 @@ top: -8.81em;
 
 }
 #header_box {
-width: 25em;
+width: auto;
+padding-left: 1em;
+padding-right: 1em;
 height: 7em;
 position: absolute;
 float: left;
 overflow: hidden;
 background-color: #fff;
-top: 13.35em;
+top: 14em;
 left: 8em;
 }
 #header_box h1 {

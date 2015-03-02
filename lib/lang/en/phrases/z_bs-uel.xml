@@ -55,10 +55,10 @@
                                                 <span class="icon-bar" />
                                                 </button>
                                                 <a class="navbar-brand" href="#">
-                                                <img alt="{phrase('archive_name')}" src="{$config{rel_path}}{$config{site_logo}}" style="height: 30px"/>
+                                                <img alt="{phrase('archive_name')}" src="{$config{rel_path}}/bootstrap_assets/Images/logo.png" style="height: 88px"/>
                                                 </a>
                                                 <a href="{$config{frontpage}}" title="{phrase('archive_name')}" class="navbar-brand">
-                                                        <epc:phrase ref="template/navigation:home"/>
+                                                        <!--epc:phrase ref="template/navigation:home"/-->
                                                         <!-- Include this if you want to display you repo name in the menu at the top <epc:phrase ref="archive_name"/> -->
                                                 </a>
                                                 <h1 class="sr-only"><!-- "sr-only" screen reader only -->
@@ -67,7 +67,7 @@
                                         </div>
                                         <!-- Collect the nav links, forms, and other content for toggling -->
                                         <div class="collapse navbar-collapse" id="mainnav" >
-                                                <ul class="nav navbar-nav">
+                                                <ul class="nav navbar-nav navbar-right">
                                                         <li>
                                                                 <a href="{$config{http_url}}/information.html">
                                                                         <epc:phrase ref="template/navigation:about" />
@@ -105,8 +105,6 @@
                                                                         </li>
                                                                 </ul>
                                                         </li>
-                                                </ul>
-						<ul class="nav navbar-nav navbar-right">
 							<li>
 							 <form class="navbar-form" role="search" method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search">
                                                           <div class="form-group">
@@ -116,13 +114,14 @@
                                                                 <input type="hidden" name="basic_srchtype" value="ALL" />
                                                                 <input type="hidden" name="_satisfyall" value="ALL" />
                                                           </div>
-                                                          <button class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
+                                                          <button class="nav-a-style btn-link btn" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
                                                 	 </form>
 							</li>
 							<li>
-							 <form class="navbar-form" action="http://eprints-dev.uel.ac.uk/cgi/search/advanced">
+							 <!--form class="navbar-form" action="http://eprints-dev.uel.ac.uk/cgi/search/advanced">
                                                           <input class="btn btn-default" value="{phrase('lib/searchexpression:advanced_link')}" type="submit" />
-							 </form>
+							 </form-->
+                                                          <a href="http://eprints-dev.uel.ac.uk/cgi/search/advanced">Advanced Search</a>
 							</li>
                                                 </ul>
 
@@ -133,6 +132,10 @@
                                         </div>
                                 </div>
                         </nav>
+			<div id="repo_title_banner" class="title-banner"></div>
+			<div id="repo_title_banner_overlay" class="title-banner"></div>
+			<div id="header_box"><h1>pubs.uel</h1></div>
+
 
 	</epp:phrase>
 

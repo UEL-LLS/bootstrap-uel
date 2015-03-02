@@ -79,3 +79,75 @@ background: url('/bootstrap_assets/Images/uel-icons.png') 40px 0;
 /************************
  UEL bottom header style
 ************************/
+
+#eprints_header { 
+position: relative;
+top: -24px;
+height: 120px;
+}
+#eprints_header .navbar {
+background-color: transparent!important;
+border-color: transparent!important;
+}
+#eprints_header .navbar-header {
+margin-left: 12px;
+}
+
+#eprints_header .navbar-right {
+position: relative;
+bottom: -40px;
+}
+
+#eprints_header .navbar-right a, #eprints_header .navbar-right .btn-link {
+font-size: 1.3em;
+font-family: "Raleway";
+text-transform: uppercase;
+color: #2e2f4a
+}
+
+.title-banner {
+width: 100%;
+float: left;
+position: relative;
+height: 12em;
+}
+#repo_title_banner  {
+background: url("http://www.uel.ac.uk/~/media/Main/Images/Home/HeroImage/educationontheedge.ashx") 0 0;
+top: 44px;
+}
+#repo_title_banner_overlay {
+background-color: #0094d5!important;
+opacity: 0.6;
+top: -8.81em;
+
+}
+#header_box {
+width: 25em;
+height: 7em;
+position: absolute;
+float: left;
+overflow: hidden;
+background-color: #fff;
+top: 13.35em;
+left: 8em;
+}
+#header_box h1 {
+font-family: "Raleway";
+font-size: 6em;
+margin: 0!important;
+color: #0094d5!important
+}
+
+#eprints_header input.form-control {
+
+width: 16em;
+border-left-width: 0px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-radius: 0px;
+}
+#eprints_header input.form-control:focus {
+webkit-box-shadow: none;
+box-shadow: none;
+border-bottom-width: 2px;
+}

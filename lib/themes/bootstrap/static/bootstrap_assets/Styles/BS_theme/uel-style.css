@@ -26,7 +26,21 @@ height: 4.5em;
   font-size: 10px;
   background: #303232;
 }
-
+.dropdown-menu {
+border: none;
+border-radius: 0;
+}
+.caret {
+-moz-transition: all 0.25s ease-in-out;
+-webkit-transition: all 0.25s ease-in-out;
+-o-transition: all 0.25s ease-in-out;
+transition: all 0.25s ease-in-out;
+}
+.dropdown.open .caret {
+-ms-transform: rotate(180deg); /* IE 9 */
+-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+transform: rotate(180deg);
+}
 #branding_header ul.dropdown-menu {
 background-color: #303232;
 top: 43px;
@@ -58,6 +72,16 @@ font-family: 'Raleway', "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-s
 padding-right: 23px;
 padding-left: 14px;
 max-height: 44px;
+}
+#branding_header nav a:hover {
+color: #00bdaa
+}
+
+#branding_header nav li.open a {
+background-color:#303232;
+}
+#eprints_header nav li.open a {
+background-color: #fff;
 }
 
 #branding_header nav .navbar-left a {
@@ -95,7 +119,7 @@ background: url('/bootstrap_assets/Images/uel-icons.png') 40px 0;
 /************************
  UEL bottom header style
 ************************/
-
+@media screen and (min-width:768px){
 #eprints_header { 
 position: relative;
 top: -24px;
@@ -112,6 +136,7 @@ margin-left: 12px;
 #eprints_header .navbar-right {
 position: relative;
 bottom: -40px;
+}
 }
 
 #eprints_header .navbar-right a, #eprints_header .navbar-right .btn-link {
@@ -141,17 +166,21 @@ top: -8.81em;
 width: auto;
 padding-left: 1em;
 padding-right: 1em;
-height: 7em;
+padding-top: 1em;
+height: 8em;
 position: absolute;
 float: left;
 overflow: hidden;
 background-color: #fff;
-top: 14em;
+top: 13.2em;
 left: 8em;
+}
+#header_box small {
+font-family: "Raleway";
 }
 #header_box h1 {
 font-family: "Raleway";
-font-size: 6em;
+font-size: 4.5em;
 margin: 0!important;
 color: #0094d5!important
 }

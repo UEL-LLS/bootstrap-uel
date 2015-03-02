@@ -14,7 +14,7 @@
 	<epp:comment>htmlTop is the primary navbar. This contains the university/institutional branding.</epp:comment>
 	<epp:phrase id="bootstrap/branding_header:htmlTop">
 <!-- bootstrap/branding_header -->
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse hidden-xs">
 		<div class="collapse navbar-collapse" id="uel-header">
 			<ul class="nav navbar-nav navbar-left">
 				<li class="dropdown">	
@@ -138,10 +138,14 @@
                                         </div>
                                 </div>
                         </nav>
+			<div class="hidden-xs">
 			<div id="repo_title_banner" class="title-banner"></div>
 			<div id="repo_title_banner_overlay" class="title-banner"></div>
-			<div id="header_box"><h1>pubs.uel</h1></div>
-
+			<div id="header_box">
+				<small>University of East London:</small><br /><small>Publicaitons Repository</small>
+				<h1>pubs.uel</h1>
+			</div>
+			</div>
 
 	</epp:phrase>
 

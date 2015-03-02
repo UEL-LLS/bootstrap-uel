@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  src: url("http://eprints-dev.uel.ac.uk/bootstrap_assets/Fonts/Raleway-Regular.woff") format('woff');
+}
+
+
+
 /*******************
  UEL  Top header styles
 *******************/
@@ -140,6 +149,10 @@ margin: 0!important;
 color: #0094d5!important
 }
 
+#eprints_header .navbar-form {
+top: -4px;
+position: relative;
+}
 #eprints_header input.form-control {
 
 width: 16em;
@@ -147,6 +160,8 @@ border-left-width: 0px;
 border-top-width: 0px;
 border-right-width: 0px;
 border-radius: 0px;
+webkit-box-shadow: none;
+box-shadow: none;
 }
 #eprints_header input.form-control:focus {
 webkit-box-shadow: none;

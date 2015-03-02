@@ -5,7 +5,7 @@
 
 	<epp:comment>This is all the theme related stylesheets needed for your Bootstrap theme.</epp:comment>
 	<epp:phrase id="bootstrap/stylesheets">
-	<!--link href='http://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'/-->
+	<link href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/uel-style.css" rel='stylesheet' type='text/css'/>
         </epp:phrase>
 	
 	<epp:phrase id="bootstrap/branding_header:css">

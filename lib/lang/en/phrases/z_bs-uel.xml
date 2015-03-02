@@ -20,22 +20,23 @@
 				<li class="dropdown">	
 					<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">Our Schools  <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
-						<li class="divider"></li>
-						<li><a href="#">Separated link</a></li>
-						<li class="divider"></li>
-						<li><a href="#">One more separated link</a></li>
+						<li><a href="http://www.uel.ac.uk/SC-Our-Schools/SC-Architecture-Computing-and-Engineering">Architecture, Computing and Engineering</a></li>
+						<li><a href="http://www.uel.ac.uk/SC-Our-Schools/SC-Arts-and-Digital-Industries">Arts and Digital Industries</a></li>
+						<li><a href="http://www.uel.ac.uk/SC-Our-Schools/SC-Business-and-Law">Business and Law</a></li>
+						<li><a href="http://www.uel.ac.uk/SC-Our-Schools/SC-Cass-School-of-Education-and-Communities">Cass School of Education and Communities</a></li>
+						<li><a href="http://www.uel.ac.uk/SC-Our-Schools/SC-Graduate-School">Graduate School</a></li>
+						<li><a href="http://www.uel.ac.uk/SC-Our-Schools/SC-Health-Sport-and-Bioscience">Health, Sport and Bioscience</a></li>
+						<li><a href="http://www.uel.ac.uk/SC-Our-Schools/SC-Psychology">Psychology</a></li>
+						<li><a href="http://www.uel.ac.uk/SC-Our-Schools/SC-Social-Sciences">Social Sciences</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Staff</a></li>
-				<li><a href="#">Students</a></li>
-				<li><a href="#">Alumni</a></li>
+				<li><a href="http://www.uel.ac.uk/SC-Staff">Staff</a></li>
+				<li><a href="http://www.uel.ac.uk/SC-Students">Students</a></li>
+				<li><a href="http://www.uel.ac.uk/SC-Alumni">Alumni</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><span class="uel-icon uel-contact"></span>Contact</a></li>
-				<li><a href="#"><span class="uel-icon uel-search"></span>Search</a></li>
+				<li><a href="http://www.uel.ac.uk/contactus/"><span class="uel-icon uel-contact"></span>Contact</a></li>
+				<li><a href="http://www.uel.ac.uk/search/general/"><span class="uel-icon uel-search"></span>Search</a></li>
 			</ul>
 		
 		</div>

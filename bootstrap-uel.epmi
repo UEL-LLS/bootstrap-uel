@@ -33,25 +33,33 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/bootstrap.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>702c9b7870883c26a7580e447edadc35</hash>
+          <hash>962390827cc84d35c091ecfdc3d3a97e</hash>
           <hash_type>MD5</hash_type>
-          <filesize>9383</filesize>
+          <filesize>9954</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/z_bs-uel.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>8805dc637f6db42e1a3bc07ed2a5d03d</hash>
+          <hash>389dd437ba4b6206a970050471f5b16e</hash>
           <hash_type>MD5</hash_type>
-          <filesize>10863</filesize>
+          <filesize>11898</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>lang/en/phrases/summary.css</filename>
+          <mime_type>text/x-c</mime_type>
+          <hash>4292d9d866930351b30c3dc3f185ee51</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>5075</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/templates/default.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>9934ced8def95aa445e21dd0693f5674</hash>
+          <hash>7233911facd3943be2eb4e817ada97b4</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5683</filesize>
+          <filesize>5485</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -97,9 +105,17 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-style.css</filename>
           <mime_type>text/x-c</mime_type>
-          <hash>c3b912337a95ddd98ed44069faac5dfb</hash>
+          <hash>3c282ab81397e08efa0317689536f0d0</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2735</filesize>
+          <filesize>3869</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-summary.css</filename>
+          <mime_type>text/x-c</mime_type>
+          <hash>4292d9d866930351b30c3dc3f185ee51</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>5075</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -267,7 +283,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.1.0</version>
+  <version>0.1.3</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -278,7 +294,7 @@
       <id>you@email.address</id>
     </item>
   </creators>
-  <datestamp>2015-03-02 11:43:04</datestamp>
+  <datestamp>2015-03-04 16:53:55</datestamp>
   <title>Bootstrap-UEL</title>
   <description>This is the description.</description>
   <requirements>The following modules are required: X, Y, Z</requirements>

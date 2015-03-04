@@ -1,0 +1,304 @@
+/*********************
+  Summary Page Styles
+*********************/
+.ep_summary_content {
+
+margin-top: 1em;
+}
+
+.summary-widget {
+
+margin-bottom: 1em;
+
+}
+
+/****************
+  Citation Style
+*****************/
+
+#summary_citation > .tab-content {
+min-height: 7em;
+}
+
+#summary_citation p {
+
+text-align: center;
+
+}
+
+.btn-clipboard {
+position: absolute;
+right: 15px;
+top: 0;
+z-index: 10;
+display: block;
+padding: 2px 8px;
+font-size: 12px;
+color: #777;
+cursor: pointer;
+background-color: #fff;
+border: 1px solid #aaa;
+border-radius: 0 0 0 4px;
+}
+
+.btn-clipboard.zeroclipboard-is-hover {
+background-color: #aaa;
+color: #EEE;
+}
+
+/******************
+  Identifier Style
+*******************/
+
+#summary_identifier .well-dl {
+padding: 7px 52px 7px 7px;
+
+}
+
+#summary_identifier .btn-clipboard {
+position: absolute;
+top: -1px;
+right: -1px;
+}
+
+/****************************
+ More Information (metadata)
+****************************/
+
+#summary_metadata .hidden-meta {
+
+font-size:0px;
+visibility: hidden;
+opacity:0;
+-webkit-transition: visibility 0.2s linear, opacity 0.5s linear;
+-moz-transition: visibility 0.2s linear, opacity 0.5s linear;
+-o-transition: visibility 0.2s linear, opacity 0.5s linear;
+transition: visibility 0.2s linear,opacity 0.5s linear
+}
+
+.hidden-meta th, .hidden-meta td {
+padding: 0px!important;
+border: none!important;
+}
+
+#summary_metadata .display-meta {
+
+font-size:14px;
+
+line-height: 100%;
+opacity:1;
+transition-delay:0s;
+display: table-row!important;
+visibility: visible!important;
+}
+.display-meta th, .display-meta td {
+padding: 8px!important;
+border-top: 1px solid #ddd!important;
+}
+
+#summary_metadata .table td {
+overflow: hidden;
+max-width: 24em;
+word-wrap: break-word;
+}
+
+/*******************************
+ float the buttons to the right
+*******************************/
+
+
+#summary_citation > .btn-group, #summary_abstract button, #summary_metadata button {
+
+float: right;
+
+}
+
+.read-more button {
+margin-top: 2em;
+}
+
+
+
+#summary_citation > .btn-group > li.active button {
+
+background-color: #005e9f
+
+}
+#summary_citation > .btn-group > li.active button {
+color: #fff;
+}
+
+
+#summary_reviewed > .btn {
+width: 100%
+}
+
+.btn-not-btn:hover, .btn-not-btn:active {
+background-color: #5cb85c;
+border-color: #4cae4c;
+-webkit-box-shadow: none;
+box-shadow: none;
+cursor:default;
+}
+
+/**************
+ Peer reviewed
+**************/
+
+#summary_reviewed span {
+padding-left: 10px;
+}
+
+/**************** 
+ Download styles
+****************/
+.panel { margin-top: 5px; }
+
+
+.panel-title span {
+	float: right;
+}
+
+.panel-body i, .panel-body .ep_doc_icon {
+//float: right;
+margin-left: 25%;
+}
+
+#summary_links .panel-body p {
+float: left;
+width: 70%
+}
+#summary_links .panel-body a, #summary_links .panel-body button {
+float: right;
+}
+
+
+#summary_links .panel-title a , #summary_downloads .panel-title a {
+width: 95%;
+display: inline-block;
+}
+#summary_links .panel-title > a > span , #summary_downloads .panel-title > a > span {
+position: relative;
+//left: 7%;
+right: -5%;
+}
+
+/******
+ Links 
+*******/
+
+.modal-open {
+padding-right: 17px;
+}
+
+.modal-lg {
+width: 80%
+}
+.modal-body {
+padding: 0;
+}
+
+iframe {
+width: 100%;
+height: 30em;
+border: none;
+}
+.docklands-modal-header {
+background: #FF8700;
+color: #fff;
+}
+
+.panel-data {
+}
+.panel-roar {
+}
+.panel-external {
+}
+
+.panel-roar > .panel-heading, .panel-roar .btn-docklands-prime {
+background: #0094d5!important;
+color: #fff
+}
+.panel-data > .panel-heading, .panel-data .btn-docklands-prime {
+background: #FF8700!important;
+color: #fff;
+}
+
+.panel-external > .panel-heading, .panel-external .btn-docklands-prime { 
+background: #666!important;
+color: #fff;
+
+}
+
+.panel-roar .btn-docklands-prime:hover {
+background-color: #005e9f!important
+}
+.panel-data .btn-docklands-prime:hover {
+background-color: #BF6500!important
+}
+.panel-external .btn-docklands-prime:hover {
+background-color: #444!important
+}
+
+
+
+#summary_links a.btn, #summary_links a.btn:visited {
+color: #fff
+}
+
+/***************
+ External Links
+***************/
+.datauel {
+font-weight: 600;
+color: #BF6500;
+}
+
+.external-link-img {
+width: 122px;
+display: inline-block;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: 0px 0px;
+vertical-align: middle;
+}
+.figshare-img {
+background-image: url('https://dl.dropboxusercontent.com/u/135459/linked_resources/figshare.png');
+height: 44px;
+}
+.ukda-img {
+background-image: url("https://dl.dropboxusercontent.com/u/135459/linked_resources/ukda.png");
+height: 24px
+}
+.archds-img {
+background-image: url("https://dl.dropboxusercontent.com/u/135459/linked_resources/archds.png");
+height: 26px;
+}
+.reshare-img { 
+background-image: url("https://dl.dropboxusercontent.com/u/135459/linked_resources/reshare.png");
+width: 28px;
+height: 26px;
+}
+.nerc-img {
+background-image: url("https://dl.dropboxusercontent.com/u/135459/linked_resources/nerc.png");
+height: 26px;
+}
+.dryad-img {
+background-image: url("https://dl.dropboxusercontent.com/u/135459/linked_resources/dryad.png");
+height: 26px;
+}
+
+
+/********
+ Metrics
+********/
+
+.altmetric_error {
+display: none;
+}
+
+#summary_altmetric, #summary_altmetric a.btn {
+margin: 20px 0 60px 0;
+}
+
+

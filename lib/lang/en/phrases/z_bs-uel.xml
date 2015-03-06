@@ -5,9 +5,9 @@
 	<epp:comment>This is all the theme related stylesheets needed for your Bootstrap theme.</epp:comment>
 	<epp:phrase id="bootstrap/stylesheets">
 	<link href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/uel-style.css" rel='stylesheet' type='text/css'/>
-	<link href="https://rawgit.com/UEL-LLS/bootstrap-uel/master/lib/themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-style.css" rel='stylesheet' type='text/css'/>
+	<link href="Xhttps://rawgit.com/UEL-LLS/bootstrap-uel/master/lib/themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-style.css" rel='stylesheet' type='text/css'/>
 	<link href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/uel-summary.css" rel='stylesheet' type='text/css'/>
-	<link href="https://rawgit.com/UEL-LLS/bootstrap-uel/master/lib/themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-summary.css" rel='stylesheet' type='text/css'/>
+	<link href="Xhttps://rawgit.com/UEL-LLS/bootstrap-uel/master/lib/themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-summary.css" rel='stylesheet' type='text/css'/>
 	<link href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/uel-DATA.css" rel='stylesheet' type='text/css'/>
 	<link href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/z_data-bootstrap-theme.css" rel='stylesheet' type='text/css'/>
         </epp:phrase>

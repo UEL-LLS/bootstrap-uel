@@ -10,3 +10,7 @@ border-color: #FF8700
 #header_box h1 {
 color: #FF8700
 }
+
+#repo_title_banner_overlay {
+background-color: #FF8700!important;
+}

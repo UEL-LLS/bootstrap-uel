@@ -10,3 +10,7 @@ border-color: #0095d5
 #header_box h1 {
 color: #0095d5
 }
+
+#repo_title_banner_overlay {
+background-color: #0094d5!important;
+}

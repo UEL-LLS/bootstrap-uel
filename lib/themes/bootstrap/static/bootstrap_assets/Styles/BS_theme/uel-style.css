@@ -2,7 +2,7 @@
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  src: url("http://eprints-dev.uel.ac.uk/bootstrap_assets/Fonts/Raleway-Regular.woff") format('woff');
+  src: url("../../Fonts/Raleway-Regular.woff") format('woff');
 }
 
 
@@ -164,8 +164,7 @@ background: url("http://www.uel.ac.uk/~/media/Main/Images/Home/HeroImage/educati
 top: 44px;
 }
 #repo_title_banner_overlay {
-background-color: #0094d5!important;
-opacity: 0.6;
+opacity: 0.2;
 top: -8.81em;
 
 }

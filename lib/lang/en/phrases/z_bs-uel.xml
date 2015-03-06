@@ -142,7 +142,7 @@
 			<div id="repo_title_banner_overlay" class="title-banner"></div>
 			<div id="header_box">
 				<small>University of East London:</small><br /><small>Publicaitons Repository</small>
-				<h1>pubs.uel</h1>
+				<a href="{$config{frontpage}}" class="link-unstyled"><h1><epc:phrase ref="archive_name"/></h1></a>
 			</div>
 			</div>
 

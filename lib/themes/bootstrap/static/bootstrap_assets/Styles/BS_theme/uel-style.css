@@ -212,6 +212,15 @@ border-bottom-width: 2px;
 }
 
 /***********
+
+De style links
+
+***********/
+
+.list-group-item a ,.list-group-item a:hover, .list-group-item a:visited { 
+#
+}
+/***********
  Helpers
 ***********/
 

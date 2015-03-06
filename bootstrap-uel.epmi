@@ -41,17 +41,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/z_bs-uel.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>389dd437ba4b6206a970050471f5b16e</hash>
+          <hash>b038b19855b66b1ed14ff4bf87ea20cb</hash>
           <hash_type>MD5</hash_type>
-          <filesize>11898</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>lang/en/phrases/summary.css</filename>
-          <mime_type>text/x-c</mime_type>
-          <hash>4292d9d866930351b30c3dc3f185ee51</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>5075</filesize>
+          <filesize>12454</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -105,9 +97,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/uel-style.css</filename>
           <mime_type>text/x-c</mime_type>
-          <hash>3c282ab81397e08efa0317689536f0d0</hash>
+          <hash>f0a60f68a456f9e2ff8d5f2d98ecb9df</hash>
           <hash_type>MD5</hash_type>
-          <filesize>3869</filesize>
+          <filesize>3970</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -124,6 +116,14 @@
           <hash>cdc7e40ffb2cbbef9ed5fd3baa14a829</hash>
           <hash_type>MD5</hash_type>
           <filesize>18796</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/z_roar-bootstrap-theme.css</filename>
+          <mime_type>text/x-c++</mime_type>
+          <hash>f1b22558bc0d8f6e83b5f6f85fa3363e</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>127456</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -283,7 +283,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.1.3</version>
+  <version>0.2.0</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -294,7 +294,7 @@
       <id>you@email.address</id>
     </item>
   </creators>
-  <datestamp>2015-03-04 16:53:55</datestamp>
+  <datestamp>2015-03-06 11:54:51</datestamp>
   <title>Bootstrap-UEL</title>
   <description>This is the description.</description>
   <requirements>The following modules are required: X, Y, Z</requirements>

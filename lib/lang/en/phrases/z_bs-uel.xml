@@ -75,6 +75,25 @@
 									<epc:phrase ref="template/navigation:home"/>
 								</a>
 							</li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+									Deposit
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" role="menu">
+									<li>
+									<form id="new_pub" method="post" accept-charset="utf-8" action="http://roartest.uel.ac.uk/cgi/users/home" enctype="multipart/form-data">
+										<input name="screen" id="screen" value="NewEPrint" type="hidden"/>
+										<input value="Publication" name="_action_create" type="submit" class="nav-a-style btn-link btn"/>
+									</form>
+									</li>
+									<form id="new_data" method="post" accept-charset="utf-8" action="/cgi/users/home" enctype="multipart/form-data">
+                                                                                <input name="screen" id="screen" value="NewEPrint" type="hidden"/>
+                                                                                <input value="Data" name="_action_create" type="submit" class="nav-a-style btn-link btn"/>
+                                                                        </form>
+								</ul>
+
+							</li>
                                                         <li>
                                                                 <a href="{$config{http_url}}/information.html">
                                                                         <epc:phrase ref="template/navigation:about" />

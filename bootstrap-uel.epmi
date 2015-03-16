@@ -233,9 +233,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Scripts/menu.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>8f2282ee44beae7b207b17d701e556cd</hash>
+          <hash>9dad8eda42a46881c80fe7781fa6918e</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1590</filesize>
+          <filesize>1770</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -330,7 +330,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.2.4</version>
+  <version>0.2.5</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -340,7 +340,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2015-03-11 13:45:03</datestamp>
+  <datestamp>2015-03-16 11:03:37</datestamp>
   <title>Bootstrap for EPrints UEL</title>
   <description>UEL Version of Bootstrap for EPRints</description>
   <home_page>https://github.com/UEL-LLS/bootstrap-uel</home_page>

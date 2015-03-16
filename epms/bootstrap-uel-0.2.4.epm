@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://roartest.uel.ac.uk/id/epm/bootstrap-uel'>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://eprints-dev.uel.ac.uk/id/epm/bootstrap-uel'>
   <epmid>bootstrap-uel</epmid>
   <uri>http://eprints-dev.uel.ac.uk/id/epm/bootstrap-uel</uri>
   <documents>
@@ -7253,9 +7253,9 @@ bHRzfSkoalF1ZXJ5KTsK
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Scripts/menu.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>9dad8eda42a46881c80fe7781fa6918e</hash>
+          <hash>8f2282ee44beae7b207b17d701e556cd</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1770</filesize>
+          <filesize>1590</filesize>
           <data encoding='base64'>LyoqKioqKioqKioqKioqKioqKioqKioqKioqCiBTY3JpcHQgdG8gY2hhbmdlIGVwcmludCAgCiBs
 b2dpbiBtZW51IHRvIGJvb3RzdGFwIAogbmF2LXN0YWNrZWQKKioqKioqKioqKioqKioqKioqKioq
 KioqKioqLwp2YXIgaiA9IGpRdWVyeS5ub0NvbmZsaWN0KCk7CgpqKGRvY3VtZW50KS5yZWFkeShm
@@ -7280,14 +7280,10 @@ Z3JvdXAtaXRlbS10ZXh0Jyk7CgoJLy8gSWYgdGhlIHVzZXIgaXNuJ3QgbG9nZ2VkIGluLCBzdHls
 ZSBpdCBhIGxpdHRsZQoJLy9qKCcjbWFpbl9wYWdlIHVsI2VwX21lbnUgbGk6Zmlyc3QtY2hpbGQg
 YVtocmVmJD0iY2dpL3VzZXJzL2hvbWUiXScpLmFkZENsYXNzKCdsaXN0LWdyb3VwLWl0ZW0taGVh
 ZGluZycpOwoJdmFyIGxvZ19pbl9idG4gPSBqKCcjbWFpbl9wYWdlIHVsI2VwX21lbnUgbGk6Zmly
-c3QtY2hpbGQgYVtocmVmJD0iY2dpL3VzZXJzL2hvbWUiXScpOwoJdmFyIGFkbWluX2J0biA9IGoo
-JyNtYWluX3BhZ2UgdWwjZXBfbWVudSBsaSBhW2hyZWYkPSJjZ2kvdXNlcnMvaG9tZT9zY3JlZW49
-QWRtaW4iXScpOwoJLy9sb2dfaW5fYnRuLmFkZENsYXNzKCdidG4gYnRuLXByaW1hcnknKTsKCS8v
-YWRtaW5fYnRuLmFkZENsYXNzKCdidG4gYnRuLWRlZmF1bHQnKTsKCWxvZ19pbl9idG4uY2xvc2Vz
-dCgnbGknKS5hZGRDbGFzcygnYWN0aXZlJyk7CgkvL2FkbWluX2J0bi5jbG9zZXN0KCdsaScpLnJl
-bW92ZUNsYXNzKCdsaXN0LWdyb3VwLWl0ZW0nKTsKCS8vbG9nX2luX2J0bi5jbG9zZXN0KCd1bCcp
-LnJlbW92ZUNsYXNzKCdsaXN0LWdyb3VwJykuYWRkQ2xhc3MoJ2xpc3QtdW5zdHlsZWQnKTsKCgp9
-KTsK
+c3QtY2hpbGQgYVtocmVmJD0iY2dpL3VzZXJzL2hvbWUiXScpOwoJbG9nX2luX2J0bi5hZGRDbGFz
+cygnYnRuIGJ0bi1wcmltYXJ5Jyk7Cglsb2dfaW5fYnRuLmNsb3Nlc3QoJ2xpJykucmVtb3ZlQ2xh
+c3MoJ2xpc3QtZ3JvdXAtaXRlbScpOwoJbG9nX2luX2J0bi5jbG9zZXN0KCd1bCcpLnJlbW92ZUNs
+YXNzKCdsaXN0LWdyb3VwJykuYWRkQ2xhc3MoJ2xpc3QtdW5zdHlsZWQnKTsKCgp9KTsK
 </data>
         </file>
         <file>
@@ -13119,7 +13115,7 @@ NDozNSswMDowMNpsZ8oAAAAASUVORK5CYII=
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.2.5</version>
+  <version>0.2.4</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -13129,7 +13125,7 @@ NDozNSswMDowMNpsZ8oAAAAASUVORK5CYII=
       </name>
     </item>
   </creators>
-  <datestamp>2015-03-16 11:03:37</datestamp>
+  <datestamp>2015-03-11 13:45:03</datestamp>
   <title>Bootstrap for EPrints UEL</title>
   <description>UEL Version of Bootstrap for EPRints</description>
   <home_page>https://github.com/UEL-LLS/bootstrap-uel</home_page>

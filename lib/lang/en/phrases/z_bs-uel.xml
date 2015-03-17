@@ -16,7 +16,6 @@
 	
 	<epp:comment>This is all the theme related scripts needed for your Bootstrap theme.</epp:comment>
         <epp:phrase id="bootstrap/scripts">
-	<!-- ZeroClipboard -->
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.min.js"/>
         </epp:phrase>
 

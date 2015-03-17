@@ -7,11 +7,35 @@
       <files>
         <file>
           <datasetid>document</datasetid>
+          <filename>epm/bootstrap-uel/epms/bootstrap-uel-0.2.4.epm</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>8a0b7cf13b7e25fb4b8a6492516d33f5</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>995656</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>epm/bootstrap-uel/epms/bootstrap-uel-0.2.5.epm</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>105d427a7310611d93c0c433f24db15f</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>995897</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
           <filename>epm/bootstrap-uel/cfg/citations/eprint/bootstrap_summary_page.xml</filename>
           <mime_type>application/xml</mime_type>
           <hash>9fe2bb5064e01e7981e970099ff1c6ab</hash>
           <hash_type>MD5</hash_type>
           <filesize>11053</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>epm/bootstrap-uel/cfg/citations/eprint/bootstrap_summary_page_data.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>084abc821c850271839124ec5527daf3</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>18701</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -33,25 +57,25 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/bootstrap.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>962390827cc84d35c091ecfdc3d3a97e</hash>
+          <hash>27604069899ac6ad962d78c52fe80c55</hash>
           <hash_type>MD5</hash_type>
-          <filesize>9954</filesize>
+          <filesize>10120</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/z_bs-uel.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>ca821f68df3ed3c88d4b002304e925a2</hash>
+          <hash>fd40e1ab60bc41b10a9f1b02fab0e54b</hash>
           <hash_type>MD5</hash_type>
-          <filesize>14097</filesize>
+          <filesize>14353</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/templates/default.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>7233911facd3943be2eb4e817ada97b4</hash>
+          <hash>64a167acb31e90d2d92d3eeb20351429</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5485</filesize>
+          <filesize>5544</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -89,9 +113,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/bs_overrides.css</filename>
           <mime_type>text/plain</mime_type>
-          <hash>742f9de1398a790c13d37b53b2a4d033</hash>
+          <hash>c49e82af4e8497b05fdee3a8a0d8aa4c</hash>
           <hash_type>MD5</hash_type>
-          <filesize>38</filesize>
+          <filesize>105</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -330,7 +354,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.2.5</version>
+  <version>0.2.6</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -340,7 +364,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2015-03-16 11:03:37</datestamp>
+  <datestamp>2015-03-17 16:37:46</datestamp>
   <title>Bootstrap for EPrints UEL</title>
   <description>UEL Version of Bootstrap for EPRints</description>
   <home_page>https://github.com/UEL-LLS/bootstrap-uel</home_page>

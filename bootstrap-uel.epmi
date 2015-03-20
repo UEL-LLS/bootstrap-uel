@@ -15,6 +15,14 @@
         </file>
         <file>
           <datasetid>document</datasetid>
+          <filename>epm/bootstrap-uel/epms/bootstrap-uel-0.2.6.epm</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>83fc82da1bd96dad6617aa34e4111c00</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>3713398</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
           <filename>epm/bootstrap-uel/epms/bootstrap-uel-0.2.5.epm</filename>
           <mime_type>application/xml</mime_type>
           <hash>105d427a7310611d93c0c433f24db15f</hash>
@@ -57,9 +65,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/bootstrap.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>27604069899ac6ad962d78c52fe80c55</hash>
+          <hash>8dd862f51e57c79a5ff2c541bfea311a</hash>
           <hash_type>MD5</hash_type>
-          <filesize>10120</filesize>
+          <filesize>10320</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -73,9 +81,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/templates/default.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>64a167acb31e90d2d92d3eeb20351429</hash>
+          <hash>f0b222fd7793995db25b033db2a7bbdc</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5544</filesize>
+          <filesize>5637</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -96,10 +104,10 @@
         <file>
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/ep_overrides.css</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>863d002da60f99b3399e32b58a969cf0</hash>
+          <mime_type>text/x-c</mime_type>
+          <hash>d6dd22d904112c69c60f1e427afeb11d</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1094</filesize>
+          <filesize>1340</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -225,9 +233,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Scripts/buttons.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>19f6563c06369f9023263368447bfb5f</hash>
+          <hash>b901c50ba6eb552bcc5de86e977be5e3</hash>
           <hash_type>MD5</hash_type>
-          <filesize>901</filesize>
+          <filesize>948</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -354,7 +362,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.2.6</version>
+  <version>0.2.7</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -364,7 +372,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2015-03-17 16:37:46</datestamp>
+  <datestamp>2015-03-20 14:34:37</datestamp>
   <title>Bootstrap for EPrints UEL</title>
   <description>UEL Version of Bootstrap for EPRints</description>
   <home_page>https://github.com/UEL-LLS/bootstrap-uel</home_page>

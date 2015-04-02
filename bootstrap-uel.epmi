@@ -161,17 +161,17 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/z_roar-bootstrap-theme.css</filename>
           <mime_type>text/x-c++</mime_type>
-          <hash>4b1b40bdf1e9f18ad2b7cae3e979ac59</hash>
+          <hash>a247f92e2a1a5d8581658d72f367be18</hash>
           <hash_type>MD5</hash_type>
-          <filesize>127541</filesize>
+          <filesize>127528</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/BS_theme/z_data-bootstrap-theme.css</filename>
           <mime_type>text/x-c++</mime_type>
-          <hash>54b3a33aee981d5fe4424b1cc27048ae</hash>
+          <hash>cc304cead948dd1ef4615dc87bb6fb7a</hash>
           <hash_type>MD5</hash_type>
-          <filesize>127541</filesize>
+          <filesize>127529</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -362,7 +362,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>0.2.7</version>
+  <version>0.2.8</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -372,7 +372,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2015-03-20 14:34:37</datestamp>
+  <datestamp>2015-04-02 08:17:00</datestamp>
   <title>Bootstrap for EPrints UEL</title>
   <description>UEL Version of Bootstrap for EPRints</description>
   <home_page>https://github.com/UEL-LLS/bootstrap-uel</home_page>
